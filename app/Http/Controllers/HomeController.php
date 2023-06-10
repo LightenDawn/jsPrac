@@ -17,4 +17,12 @@ class HomeController extends Controller
     function basic() {
         return view('prac.basic');
     }
+
+    function homework1() {
+        return view('homework.firstWork');
+    }
+
+    function inputTest() {
+        return view('prac.test');
+    }
 }

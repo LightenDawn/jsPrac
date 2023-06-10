@@ -19,3 +19,20 @@ Route::get('/', [HomeController::class, 'index']);
 Route::get('/first', [HomeController::class, 'first']);
 
 Route::get('/basic', [HomeController::class, 'basic']);
+
+/*
+|
+| Course home work practice route
+|
+*/
+
+Route::get('/homework/first', [HomeController::class, 'homework1']);
+
+
+/*
+|
+| Some custom test route
+|
+*/
+
+Route::get('/input/test', [HomeController::class, 'inputTest']);

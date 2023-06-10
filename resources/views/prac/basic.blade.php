@@ -4,7 +4,6 @@
 
 @section('custom_head')
     @include('prac.css.basicCss')
-    @include('prac.javascript.basicJs')
 @endsection
 
 @section('content')
@@ -25,4 +24,7 @@
         <h2 id="current-calculation">0</h2>
         <h2>Result: <span id="current-result">0</span></h2>
     </section>
+
+    @include('prac.javascript.basicJs')
+    @include('prac.javascript.appJs')
 @endsection
